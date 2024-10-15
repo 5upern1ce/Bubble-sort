@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bubble sort 15.10.24", "Bubble sort 15.10.24\Bubble sort 15.10.24.pyproj", "{318C812A-1B57-4554-9264-3768E8BA447E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{318C812A-1B57-4554-9264-3768E8BA447E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318C812A-1B57-4554-9264-3768E8BA447E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7139FBAB-784D-48F2-B6A5-19B85875CAE1}
+	EndGlobalSection
+EndGlobal
