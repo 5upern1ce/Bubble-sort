@@ -1,8 +1,8 @@
-import random 
+import random, time
 def randomlist():
     nums = []
-    for i in range(0,10):
-        n = random.randint(1,30)
+    for i in range(0,50000):
+        n = random.randint(1,99)
         nums.append(n)
     return (nums)
 
@@ -10,15 +10,19 @@ def lengthchecker(listinp):
     return len(listinp)
 
 def bubblesort():
+    start = time.time()
     lst1 = randomlist()
-    print (f"The unsorted list is {lst1}")
     counter = lengthchecker(lst1)
+    n = counter - 1
     while counter > 1:
-        for sort in range(9):
+        for sort in range(0, n):
             if lst1 [sort] > lst1 [sort+1]:
                 switch = lst1 [sort]
                 lst1 [sort] = lst1 [sort + 1]
                 lst1 [sort+1] = switch
+        n-=1
         counter -=1
-    print(f"The sorted list is {lst1}")
+    end = time.time()
+    length = end - start
+    print(f"The sorted list is {lst1}, it sorted it in {length} seconds!")
 bubblesort()
